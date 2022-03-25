@@ -1,0 +1,97 @@
+
+h1
+{
+    color:thistle;
+    text-align: center;
+    font-style: unset;
+    
+}
+
+.flex-container
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #333;
+    margin:50px 40px;
+    padding: 20px;
+    border: 5px solid #ffff;
+    outline: 5px solid  #007bff;
+
+}
+
+
+.form
+{
+ 
+  min-width: 200px;
+  flex: 1;
+  text-align:center;
+  padding: 30px;
+  order: 5;
+}
+
+.form-img
+{
+
+    flex: 1;    
+    padding: 10px;
+    display: flex;
+    min-width: 300px;
+    max-width: 400px;
+    order: 2;
+}
+
+.form-img img
+{
+   width: 60%;
+   margin: auto;
+   border-radius: 50%;
+   background-color:#ffff;   
+   padding: 20px;
+  
+}
+.form__input:focus
+{
+    background: linear-gradient(to bottom,transparent,#222);
+    outline: none;
+    border-bottom:3px solid #a945c7;
+
+}
+
+.form__input
+{
+width:100%;
+padding: 9px;
+margin: 8px 0;
+border: none;
+background:transparent;
+border-bottom:3px solid #007bff;
+color:#ffff;
+}
+
+
+.form textarea
+{
+    min-height: 120px;
+    resize: none;
+}
+.form__input[type="submit"]
+{
+border-radius: 5px;
+background-color: #007bff;
+border-bottom: none;
+padding: 12px;
+}
+
+.form__input[type="submit"]:hover
+{
+background-color:#a945c7;
+box-shadow: 0 0 10px #a945c7,0 0 40px;
+
+
+border-bottom: none;
+padding: 12px;
+}
+
